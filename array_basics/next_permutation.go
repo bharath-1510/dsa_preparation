@@ -1,5 +1,9 @@
 package arraybasics
 
+// nextPermutation transforms arr into its next lexicographic permutation (in-place logic used).
+// Time Complexity: O(n) — scan from right to find pivot, then reverse suffix.
+// Space Complexity: O(n) for returned slice since code copies input into res; in-place variant would be O(1).
+// Best achievable: Time = O(n), Space = O(1) — an in-place implementation is possible without extra copies.
 func nextPermutation(arr []int) []int {
 	var res []int
 	res = append(res, arr...)

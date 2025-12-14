@@ -1,5 +1,9 @@
 package arraybasics
 
+// Segregate01 moves all 1s to the end and 0s to the front (allocates new slice).
+// Time Complexity: O(n) — single pass to place 1s.
+// Space Complexity: O(n) — allocates a new slice of the same size.
+// Best achievable: Time = O(n), Space = O(1) — can be done in-place using two pointers.
 func Segregate01(arr []int) []int {
 	if len(arr) == 0 {
 		return arr

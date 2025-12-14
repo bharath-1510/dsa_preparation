@@ -1,5 +1,9 @@
 package arraybasics
 
+// removeDuplicatesInArray removes duplicates from a sorted array and returns a new slice.
+// Time Complexity: O(n) — single pass (skipping duplicates via inner loop).
+// Space Complexity: O(n) — builds and returns a new slice containing unique elements.
+// Best achievable: Time = O(n), Space = O(1) — in-place two-pointer technique can remove duplicates without extra slice.
 func removeDuplicatesInArray(arr []int) []int {
 	var res []int
 	if len(arr) < 2 {

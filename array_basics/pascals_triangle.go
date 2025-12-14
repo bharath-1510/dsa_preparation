@@ -1,5 +1,9 @@
 package arraybasics
 
+// pascalsTriangle generates the first n rows of Pascal's triangle.
+// Time Complexity: O(n^2) — building each row requires O(row_length) work.
+// Space Complexity: O(n^2) — result stores O(n^2) numbers.
+// Best achievable: Time = O(n^2), Space = O(n^2) — storing all rows requires O(n^2); streaming single rows can reduce output space.
 func pascalsTriangle(n int) [][]int {
 	var res [][]int
 	if n == 0 {

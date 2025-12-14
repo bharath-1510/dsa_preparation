@@ -1,5 +1,9 @@
 package arraybasics
 
+// moveZeroEnd moves all zeros to the end while preserving order of non-zero elements.
+// Time Complexity: O(n) — single pass to collect non-zeros then append zeros.
+// Space Complexity: O(n) — constructs a new slice for result.
+// Best achievable: Time = O(n), Space = O(1) — can be done in-place with two pointers.
 func moveZeroEnd(arr []int) []int {
 	if len(arr) == 0 {
 		return []int{}

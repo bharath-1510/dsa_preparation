@@ -1,6 +1,13 @@
 package arraybasics
 
+// setMatrixZero sets entire row and column to zero if an element is zero.
+// Time Complexity: O(m * n * (m + n)) in the worst case — for each zero the code updates its full row and column;
+//
+//	practical performance is better due to `present` guarding repeated updates.
+//
+// Space Complexity: O(m * n) — copies matrix and maintains a boolean `present` matrix.
 func setMatrixZero(arr [][]int) [][]int {
+	// Best achievable: Time = O(n*m), Space = O(1) — using first row/col as markers reduces extra space.
 	var res [][]int
 	present := make([][]bool, len(arr))
 	for i := range arr {

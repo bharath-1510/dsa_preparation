@@ -14,13 +14,17 @@ package arraybasics
 // 	return maxProfit
 // }
 
+// MaxProfit computes the max profit from a single buy/sell.
+// Time Complexity: O(n) — single pass tracking min price and max profit.
+// Space Complexity: O(1) — constant extra space.
+// Best achievable: Time = O(n), Space = O(1) — already optimal for single-transaction profit.
 func MaxProfit(arr []int) int {
 	if len(arr) < 2 {
 		return 0
 	}
 	minPrice := arr[0]
 	maxProfit := 0
-	
+
 	for i := 1; i < len(arr); i++ {
 		profit := arr[i] - minPrice
 		if profit > maxProfit {
@@ -30,6 +34,6 @@ func MaxProfit(arr []int) int {
 			minPrice = arr[i]
 		}
 	}
-	
+
 	return maxProfit
 }
