@@ -29,6 +29,9 @@ package arraymedium
 // 	return maxCount
 // }
 
+// LongestConsecutiveSequence returns the length of the longest sequence of consecutive integers.
+// Achieved: Time Complexity: O(n), Space Complexity: O(n) — uses a set for O(1) lookups.
+// Best achievable: Time Complexity: O(n), Space Complexity: O(n) — this is optimal for unsorted input.
 func LongestConsecutiveSequence(arr []int) int {
 	set := make(map[int]bool)
 	for _, v := range arr {

@@ -1,5 +1,8 @@
 package arraymedium
 
+// LongestSubstringWithoutRepeat returns the length of the longest substring without repeating characters.
+// Achieved: Time Complexity: O(n), Space Complexity: O(k) — sliding window with hashmap, k = charset size.
+// Best achievable: Time Complexity: O(n), Space Complexity: O(k) — already optimal for this problem.
 func LongestSubstringWithoutRepeat(s string) int {
 	seen := make(map[rune]int)
 	maxLen := 0

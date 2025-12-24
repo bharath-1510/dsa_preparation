@@ -28,6 +28,9 @@ package arraymedium
 // 	return water
 // }
 
+// TrappingRainWater returns the total units of water that can be trapped after raining.
+// Achieved: Time Complexity: O(n), Space Complexity: O(1) — two-pointer approach.
+// Best achievable: Time Complexity: O(n), Space Complexity: O(1) — already optimal; alternative O(n) time, O(n) space with precomputed arrays.
 func min(a, b int) int {
 	if a < b {
 		return a

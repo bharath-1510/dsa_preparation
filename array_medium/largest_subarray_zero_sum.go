@@ -1,23 +1,26 @@
 package arraymedium
 
 // func LargestSubarrayZeroSum(arr []int) int {
-	// n := len(arr)
-	// maxLen := 0
+// n := len(arr)
+// maxLen := 0
 
-	// for i := range n {
-	// 	sum := 0
-	// 	for j := i; j < n; j++ {
-	// 		sum += arr[j]
-	// 		if sum == 0 {
-	// 			if j-i+1 > maxLen {
-	// 				maxLen = j - i + 1
-	// 			}
-	// 		}
-	// 	}
-	// }
-	// return maxLen
+// for i := range n {
+// 	sum := 0
+// 	for j := i; j < n; j++ {
+// 		sum += arr[j]
+// 		if sum == 0 {
+// 			if j-i+1 > maxLen {
+// 				maxLen = j - i + 1
+// 			}
+// 		}
+// 	}
+// }
+// return maxLen
 // }
 
+// LargestSubarrayZeroSum returns the length of the largest subarray with sum zero.
+// Achieved: Time Complexity: O(n), Space Complexity: O(n) — uses prefix sum and hashmap.
+// Best achievable: Time Complexity: O(n), Space Complexity: O(n) — this is optimal for arbitrary integers.
 func LargestSubarrayZeroSum(arr []int) int {
 	sum := 0
 	maxLen := 0
@@ -40,4 +43,3 @@ func LargestSubarrayZeroSum(arr []int) int {
 	}
 	return maxLen
 }
-

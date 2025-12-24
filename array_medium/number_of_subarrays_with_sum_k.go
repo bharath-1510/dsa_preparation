@@ -16,6 +16,9 @@ package arraymedium
 // 	return ans
 // }
 
+// NumberOfSubarraysWithSumK returns the count of contiguous subarrays whose sum equals k.
+// Achieved: Time Complexity: O(n), Space Complexity: O(n) — prefix sum with hashmap.
+// Best achievable: Time Complexity: O(n), Space Complexity: O(n) — this is optimal for arbitrary integers.
 func NumberOfSubarraysWithSumK(arr []int, target int) int {
 	count := 0
 	prefixSum := 0

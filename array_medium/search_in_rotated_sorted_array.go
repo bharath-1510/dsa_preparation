@@ -10,6 +10,9 @@ package arraymedium
 // 	return out
 // }
 
+// SearchInRotatedSortedArray returns the index of target in a rotated sorted array.
+// Achieved: Time Complexity: O(log n), Space Complexity: O(1) — modified binary search.
+// Best achievable: Time Complexity: O(log n), Space Complexity: O(1) — already optimal.
 func SearchInRotatedSortedArray(arr []int, target int) int {
 	low, high := 0, len(arr)-1
 

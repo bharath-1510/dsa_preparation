@@ -18,7 +18,10 @@ package arraymedium
 // 	return maxLen
 // }
 
-func LongestSubarraySumK(arr []int,k int) int {
+// LongestSubarraySumK returns the length of the longest subarray with sum K (positives + negatives).
+// Achieved: Time Complexity: O(n), Space Complexity: O(n) — prefix sum with hashmap.
+// Best achievable: Time Complexity: O(n), Space Complexity: O(n) — this is optimal for arbitrary integers.
+func LongestSubarraySumK(arr []int, k int) int {
 	sum := 0
 	maxLen := 0
 	indexMap := make(map[int]int)

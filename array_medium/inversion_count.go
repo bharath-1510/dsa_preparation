@@ -15,6 +15,9 @@ package arraymedium
 // 	return out
 // }
 
+// InversionCount returns the number of inversions in the array.
+// Achieved: Time Complexity: O(n log n), Space Complexity: O(n) — uses merge sort based approach.
+// Best achievable: Time Complexity: O(n log n), Space Complexity: O(n) — this is optimal for inversion count.
 func mergeAndCount(arr []int, left, mid, right int) int64 {
 	temp := make([]int, right-left+1)
 	i, j, k := left, mid+1, 0

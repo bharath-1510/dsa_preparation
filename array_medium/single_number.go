@@ -18,6 +18,9 @@ package arraymedium
 // 	return out
 // }
 
+// SingleNumber returns the element that appears once when all others appear twice.
+// Achieved: Time Complexity: O(n), Space Complexity: O(1) — uses XOR.
+// Best achievable: Time Complexity: O(n), Space Complexity: O(1) — already optimal.
 func SingleNumber(arr []int) int {
 	res := 0
 	for _, v := range arr {

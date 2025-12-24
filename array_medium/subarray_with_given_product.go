@@ -15,6 +15,9 @@ package arraymedium
 // 	return -1, -1
 // }
 
+// SubarrayWithGivenProduct returns indices of a subarray whose product is p.
+// Achieved: Time Complexity: O(n), Space Complexity: O(1) — sliding window for positive integers.
+// Best achievable: Time Complexity: O(n), Space Complexity: O(1) — already optimal for positive integers.
 func SubarrayWithGivenProduct(arr []int, p int) (int, int) {
 	if p == 0 {
 		for i, v := range arr {

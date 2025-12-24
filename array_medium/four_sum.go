@@ -34,6 +34,9 @@ import "sort"
 // 	return res
 // }
 
+// FourSum finds all unique quadruplets that sum to target.
+// Achieved: Time Complexity: O(n^3), Space Complexity: O(1) (excluding output) — sorts and uses three nested loops with two pointers.
+// Best achievable: Time Complexity: O(n^3), Space Complexity: O(1) (excluding output) — this is optimal for the 4-sum problem.
 func FourSum(arr []int, target int) [][]int {
 	sort.Ints(arr)
 	n := len(arr)

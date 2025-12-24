@@ -17,6 +17,10 @@ package arraymedium
 //		}
 //		return found
 //	}
+//
+// MajorityElementI returns the element that appears more than n/2 times.
+// Achieved: Time Complexity: O(n), Space Complexity: O(1) — Boyer-Moore majority vote algorithm.
+// Best achievable: Time Complexity: O(n), Space Complexity: O(1) — already optimal.
 func MajorityElementI(arr []int) int {
 	count := 0
 	candidate := 0

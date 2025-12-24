@@ -18,6 +18,9 @@ package arraymedium
 // 	return maxLen
 // }
 
+// LongestSubarraySumKPositives returns the length of the longest subarray with sum K (positives only).
+// Achieved: Time Complexity: O(n), Space Complexity: O(1) — sliding window for positive numbers.
+// Best achievable: Time Complexity: O(n), Space Complexity: O(1) — this is optimal for positive integers.
 func LongestSubarraySumKPositives(arr []int, k int) int {
 	left, sum, maxLen := 0, 0, 0
 
@@ -37,4 +40,3 @@ func LongestSubarraySumKPositives(arr []int, k int) int {
 	}
 	return maxLen
 }
-

@@ -16,6 +16,9 @@ package arraymedium
 // 	return res
 // }
 
+// MajorityElementII returns all elements that appear more than n/3 times.
+// Achieved: Time Complexity: O(n), Space Complexity: O(1) — extended Boyer-Moore majority vote algorithm.
+// Best achievable: Time Complexity: O(n), Space Complexity: O(1) — already optimal.
 func MajorityElementII(arr []int) []int {
 	n := len(arr)
 	if n == 0 {

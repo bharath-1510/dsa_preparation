@@ -16,6 +16,9 @@ package arraymedium
 // 	return ans
 // }
 
+// CountSubarraysWithXOR returns the count of subarrays with XOR equal to x.
+// Achieved: Time Complexity: O(n), Space Complexity: O(n) — prefix XOR with hashmap.
+// Best achievable: Time Complexity: O(n), Space Complexity: O(n) — this is optimal for arbitrary integers.
 func CountSubarraysWithXOR(arr []int, x int) int {
 	count := 0
 	prefixXor := 0

@@ -1,5 +1,8 @@
 package arraymedium
 
+// CountSpecialTriplets counts triplets (i, j, k) with equal XORs in subarrays.
+// Achieved: Time Complexity: O(n^2), Space Complexity: O(1) — nested loops with prefix XOR.
+// Best achievable: Time Complexity: O(n^2), Space Complexity: O(1) — this is optimal for this problem.
 func CountSpecialTriplets(arr []int) int {
 	n := len(arr)
 	ans := 0
