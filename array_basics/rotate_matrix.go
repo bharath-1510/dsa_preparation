@@ -14,7 +14,7 @@ func RotateMatrix(arr [][]int) [][]int {
 	}
 	for _, val := range arr {
 		n := len(val) - 1
-		reverse(val, 0, n)
+		Reverse(val, 0, n)
 	}
 	return arr
 }

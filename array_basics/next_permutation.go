@@ -19,7 +19,7 @@ func nextPermutation(arr []int) []int {
 		}
 		swap(arr, i, j)
 	}
-	reverse(arr, i+1, n-1)
+	Reverse(arr, i+1, n-1)
 	return res
 }
 func swap(arr []int, i, j int) {

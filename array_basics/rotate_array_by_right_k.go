@@ -14,8 +14,8 @@ func rotate_array_by_right_k(arr []int, k int) []int {
 		return []int{}
 	}
 	k = k % len(res)
-	reverse(res, 0, len(res)-1)
-	reverse(res, 0, k-1)
-	reverse(res, k, len(res)-1)
+	Reverse(res, 0, len(res)-1)
+	Reverse(res, 0, k-1)
+	Reverse(res, k, len(res)-1)
 	return res
 }
