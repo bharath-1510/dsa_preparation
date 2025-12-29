@@ -1,6 +1,8 @@
 package matrix
 
 // RowWithMaxOnes finds the row with the maximum number of 1s in a binary matrix.
+// Achieved Complexity: Time O(M*N), Space O(1)
+// Best Complexity: Time O(M+N), Space O(1)
 func RowWithMaxOnes(matrix [][]int) int {
 	m := len(matrix)
 	n := len(matrix[0])

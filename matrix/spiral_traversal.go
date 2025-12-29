@@ -1,6 +1,8 @@
 package matrix
 
 // SpiralTraversal returns all elements of the matrix in spiral order.
+// Achieved Complexity: Time O(M*N), Space O(1) (not including output array)
+// Best Complexity: Time O(M*N), Space O(1)
 func SpiralTraversal(matrix [][]int) []int {
 	if len(matrix) == 0 || len(matrix[0]) == 0 {
 		return []int{}

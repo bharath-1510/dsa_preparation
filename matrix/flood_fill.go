@@ -1,6 +1,8 @@
 package matrix
 
 // FloodFill fills all connected cells of the same color as the start cell with the new color.
+// Achieved Complexity: Time O(M*N), Space O(M*N) (due to recursion stack)
+// Best Complexity: Time O(M*N), Space O(M*N)
 func FloodFill(image [][]int, sr int, sc int, newColor int) [][]int {
 	origColor := image[sr][sc]
 	if origColor == newColor {

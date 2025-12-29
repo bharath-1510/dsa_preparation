@@ -1,6 +1,8 @@
 package matrix
 
 // WordSearch checks if the word exists in the board (can move horizontally/vertically, no cell reused).
+// Achieved Complexity: Time O(M*N * 4^L), Space O(M*N + L) (visited array + recursion stack)
+// Best Complexity: Time O(M*N * 3^L), Space O(L)
 func WordSearch(board [][]byte, word string) bool {
     m, n := len(board), len(board[0])
     visited := make([][]bool, m)

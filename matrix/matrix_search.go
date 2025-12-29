@@ -1,6 +1,8 @@
 package matrix
 
 // MatrixSearch searches for a value in a matrix with each row and column sorted in ascending order.
+// Achieved Complexity: Time O(M*N), Space O(1)
+// Best Complexity: Time O(M+N), Space O(1)
 func MatrixSearch(matrix [][]int, target int) bool {
 	m := len(matrix)
 	n := len(matrix[0])

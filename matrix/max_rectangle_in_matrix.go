@@ -37,6 +37,8 @@ package matrix
 //     return maxArea
 // }
 
+// Achieved Complexity: Time O(M*N), Space O(N)
+// Best Complexity: Time O(M*N), Space O(N)
 func MaxRectangleInMatrix(matrix [][]int) int {
     if len(matrix) == 0 || len(matrix[0]) == 0 {
         return 0

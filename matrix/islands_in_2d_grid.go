@@ -1,6 +1,8 @@
 package matrix
 
 // IslandsIn2DGrid counts the number of islands (groups of connected 1s) in a 2D grid.
+// Achieved Complexity: Time O(M*N), Space O(M*N) (visited array + recursion)
+// Best Complexity: Time O(M*N), Space O(1) (if modification of input is allowed)
 func IslandsIn2DGrid(matrix [][]int) int {
 	if len(matrix) == 0 || len(matrix[0]) == 0 {
 		return 0
