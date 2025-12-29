@@ -9,8 +9,8 @@ func TestShortestPathInMatrix(t *testing.T) {
 		matrix [][]int
 		want   int
 	}{
-		{"example", [][]int{{0,1,0},{1,0,1},{0,0,0}}, 4},
-		{"blocked", [][]int{{1,1},{1,1}}, -1},
+		{"example", [][]int{{0, 1, 0}, {1, 0, 1}, {0, 0, 0}}, 3},
+		{"blocked", [][]int{{1, 1}, {1, 1}}, -1},
 		{"single", [][]int{{0}}, 1},
 	}
 	for _, tc := range tests {
