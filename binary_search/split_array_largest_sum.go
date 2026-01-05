@@ -1,5 +1,7 @@
 package binarysearch
 
+// Time Complexity: Achieved: O(N log(sum of array)), Best: O(N log(sum of array))
+// Space Complexity: Achieved: O(1), Best: O(1)
 // SplitArrayLargestSum splits an array into m non-empty subarrays to minimize the largest sum.
 // nums: array of integers
 // m: number of subarrays

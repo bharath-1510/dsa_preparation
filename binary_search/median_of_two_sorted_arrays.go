@@ -2,6 +2,8 @@ package binarysearch
 
 import "math"
 
+// Time Complexity: Achieved: O(log(min(n, m))), Best: O(log(min(n, m)))
+// Space Complexity: Achieved: O(1), Best: O(1)
 // MedianOfTwoSortedArrays finds the median of two sorted arrays.
 // nums1, nums2: input sorted arrays
 func MedianOfTwoSortedArrays(nums1 []int, nums2 []int) float64 {

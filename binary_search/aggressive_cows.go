@@ -2,6 +2,8 @@ package binarysearch
 
 import "sort"
 
+// Time Complexity: Achieved: O(N log N + N log(max_dist)), Best: O(N log N + N log(max_dist))
+// Space Complexity: Achieved: O(1), Best: O(1)
 // AggressiveCows finds the largest minimum distance between cows.
 // stalls: positions of stalls
 // cows: number of cows

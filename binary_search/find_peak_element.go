@@ -1,5 +1,7 @@
 package binarysearch
 
+// Time Complexity: Achieved: O(log N), Best: O(log N)
+// Space Complexity: Achieved: O(1), Best: O(1)
 // FindPeakElement finds a peak element in an array and returns its index.
 // A peak element is an element that is strictly greater than its neighbors.
 // nums: array of integers

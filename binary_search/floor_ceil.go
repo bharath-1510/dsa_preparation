@@ -1,5 +1,7 @@
 package binarysearch
 
+// Time Complexity: Achieved: O(log N), Best: O(log N)
+// Space Complexity: Achieved: O(1), Best: O(1)
 // FloorCeil finds the floor (greatest <= x) and ceil (smallest >= x) in a sorted array.
 // If floor or ceil doesn't exist, it returns -1 for that value.
 // func FloorCeil(nums []int, x int) (floor int, ceil int) {

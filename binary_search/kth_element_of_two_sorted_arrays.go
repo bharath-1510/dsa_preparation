@@ -1,5 +1,7 @@
 package binarysearch
 
+// Time Complexity: Achieved: O(log k), Best: O(log k)
+// Space Complexity: Achieved: O(1), Best: O(1)
 // KthElementOfTwoSortedArrays finds the k-th smallest element in the union of two sorted arrays.
 // nums1, nums2: input sorted arrays
 // k: the rank of the element to find

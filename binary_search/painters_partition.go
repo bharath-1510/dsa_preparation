@@ -1,5 +1,7 @@
 package binarysearch
 
+// Time Complexity: Achieved: O(N log(sum of boards)), Best: O(N log(sum of boards))
+// Space Complexity: Achieved: O(1), Best: O(1)
 // PaintersPartition finds the minimum time to paint all boards.
 // boards: lengths of boards
 // painters: number of painters

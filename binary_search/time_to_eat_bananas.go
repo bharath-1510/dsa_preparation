@@ -1,5 +1,7 @@
 package binarysearch
 
+// Time Complexity: Achieved: O(N log(max pile)), Best: O(N log(max pile))
+// Space Complexity: Achieved: O(1), Best: O(1)
 // TimeToEatBananas finds the minimum eating speed to finish all bananas in h hours.
 // piles: number of bananas in each pile
 // h: total hours available

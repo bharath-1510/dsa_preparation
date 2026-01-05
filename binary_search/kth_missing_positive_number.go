@@ -1,5 +1,7 @@
 package binarysearch
 
+// Time Complexity: Achieved: O(log N), Best: O(log N)
+// Space Complexity: Achieved: O(1), Best: O(1)
 // KthMissingPositiveNumber finds the k-th missing positive number in a sorted array of positive integers.
 // arr: sorted array of positive integers
 // k: the rank of the missing number to find

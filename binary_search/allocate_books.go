@@ -1,5 +1,7 @@
 package binarysearch
 
+// Time Complexity: Achieved: O(N log(sum of pages)), Best: O(N log(sum of pages))
+// Space Complexity: Achieved: O(1), Best: O(1)
 // AllocateBooks finds the minimum possible maximum pages assigned to a student.
 // pages: array of book pages
 // students: number of students

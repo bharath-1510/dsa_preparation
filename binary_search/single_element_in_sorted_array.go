@@ -1,5 +1,7 @@
 package binarysearch
 
+// Time Complexity: Achieved: O(log N), Best: O(log N)
+// Space Complexity: Achieved: O(1), Best: O(1)
 // SingleElementInSortedArray finds the single element in a sorted array where every other element appears twice.
 // nums: input sorted array
 func SingleElementInSortedArray(nums []int) int {
