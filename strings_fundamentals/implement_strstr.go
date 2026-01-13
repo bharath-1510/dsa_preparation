@@ -1,6 +1,8 @@
 package strings_fundamentals
 
 // ImplementStrStr finds the first occurrence of needle in haystack.
+// Time: O((n-m+1)*m), Space: O(1) — achieved (brute force)
+// Best possible: O(n + m) time (KMP)
 func ImplementStrStr(s1, s2 string) int {
 	haystack, needle := []rune(s1), []rune(s2)
 

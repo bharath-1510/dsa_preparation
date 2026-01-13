@@ -1,6 +1,8 @@
 package strings_fundamentals
 
 // LongestPalindromicSubstring finds the longest palindromic substring in s.
+// Time: O(n^2), Space: O(1) — achieved
+// Best possible: O(n) time (Manacher's algorithm), O(n) space
 func LongestPalindromicSubstring(s string) string {
 	if len(s) == 0 {
 		return ""
@@ -37,4 +39,3 @@ func expand(r []rune, left, right int) (int, int) {
 
 	return start, length
 }
-

@@ -3,6 +3,7 @@ package strings_fundamentals
 import "strings"
 
 // ValidPalindrome checks if a string is a palindrome (alphanumeric, ignore case).
+// Time: O(n), Space: O(1) — achieved and optimal
 func ValidPalindrome(s string) bool {
 	lowercaseStr := strings.ToLower(s)
 	runes := []rune(lowercaseStr)

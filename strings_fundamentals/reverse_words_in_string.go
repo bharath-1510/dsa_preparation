@@ -1,3 +1,5 @@
+// Time: O(n), Space: O(n) — achieved and optimal
+// n = number of characters in s
 package strings_fundamentals
 
 import "strings"

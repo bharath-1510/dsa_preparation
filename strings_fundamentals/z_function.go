@@ -1,7 +1,7 @@
-
 package strings_fundamentals
 
 // ZFunction computes the Z-array for string s.
+// Time: O(n), Space: O(n) — achieved and optimal
 func ZFunction(s string) []int {
 	r := []rune(s)
 	n := len(r)
@@ -33,4 +33,3 @@ func min(a, b int) int {
 	}
 	return b
 }
-

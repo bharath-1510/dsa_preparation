@@ -1,6 +1,7 @@
 package strings_fundamentals
 
 // ValidParentheses checks if the input string has valid matching parentheses.
+// Time: O(n), Space: O(n) — achieved and optimal
 func ValidParentheses(s string) bool {
 	runes := []rune(s)
 	stack := make([]rune, 0)

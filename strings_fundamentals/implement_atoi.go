@@ -1,6 +1,7 @@
 package strings_fundamentals
 
 // ImplementAtoi converts a string to a 32-bit signed integer.
+// Time: O(n), Space: O(1) — achieved and optimal
 import "math"
 
 func ImplementAtoi(s string) int {
